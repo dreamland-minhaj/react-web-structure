@@ -4,7 +4,7 @@ const Header =()=>{
 
         <>
         <header>
-            <div className="header-area bg-slate-600 py-3">
+            <div className="header-area bg-slate-600 py-3 shadow-md">
                 <div className="container w-10/12 mx-auto flex justify-between">
                     <div className="logo">
                         <img src="https://devzone.com.bd/wp-content/uploads/2024/08/office-devzone-logo2.png" alt="" />

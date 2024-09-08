@@ -5,6 +5,7 @@ import About from "../Pages/About/About";
 import Team from "../Pages/Team/Team";
 import Blog from "../Pages/Blog/Blog";
 import Contacts from "../Pages/Contacts/Contact";
+import SingleBlog from "../Pages/Blog/SingleBlog";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path : "/contact",
                 element : <Contacts/>,
+            },
+            {
+                path : "/blog/:postId",
+                element : <SingleBlog/>,
             },
 
         ],
